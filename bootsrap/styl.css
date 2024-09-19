@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+#navbar{
+position:sticky;
+top: 0;
+padding: 0;
+margin-top: 10px;
+}
+
+
+.nav-link{
+    background: transparent;
+}
+#navbar{
+    margin: 0;
+}
+.navbar-nav a:hover{
+    color: rgb(255, 0, 0);
+}
+.content-fluid{
+    background-image: url(img/art_download.jpeg);
+    background-position: top center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    box-sizing: border-box;
+    z-index: 1;   
+}
+.navbar-toggler-icon{
+    width: 20px;
+}
+.navbar-toggler{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.navv{
+    content: "X";
+}
+.nav-pills .nav-link.active{
+    background-color: rgb(211, 211, 211);
+}
+
+.content{
+    display: flex;
+   justify-content: space-around;
+}
+.content .submenu{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(247, 245, 243);
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.content .submenu:hover{
+    box-shadow: 5px 5px 5px 2px gray;
+    cursor: pointer;
+    background-color: rgb(255, 72, 0);
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+}
+.submenu i{
+    display:block;
+    font-size: 50px;
+    padding: 10px 25px;
+}
+.input-group{
+    height: 50px;
+    margin: 30px 0px;
+}
+.input-group >.form-control{
+    position: static;
+}
+.input-group-text i:hover{
+    cursor: pointer;
+}
+.top-area h1{
+    padding-top: 50px;
+}
+.top-area blockquote{
+    padding-bottom: 80px;
+}
+.list-hero .text h2{
+    padding-top: 80px;
+    margin-bottom: 2rem;
+}
+/* section skill and weapon */
+.d-flex .describe-hero{
+    width: 400px;
+}
+.describe-hero .bio p{
+    border: 1px solid rgb(119, 119, 119);
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.describe-hero .haracter_attributeList{
+    border: 1px solid rgb(119, 119, 119);
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.list-hero > .d-flex{
+    gap: 50px;
+}
+.basic-info ul{
+    list-style-type: none;
+}
+
+.character-basic-info{
+    width: 100%;
+}
+.character-basic-info div{
+    display: inline-block;
+    padding: 5px 8px;
+}
+.character-basic-info div:nth-child(odd){
+    width: 120px;
+}
+.character-basic-info div:nth-child(even){
+    width: 200px;
+}
+.haracter_attributeList{
+    padding: 0;
+    margin: 0;
+}
+/* skills */
+.skill .text-header h2{
+    margin-top: 30px;
+}
+.skill-information{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.second-image img{
+    object-fit: fill;
+}
+.skill-information-all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.col{
+    padding-left: 9px;
+    padding-top: 9px;
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+    background-color: rgb(226, 226, 226);
+
+
+}
+.paragraf p{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    
+}
+.fa-times:hover{
+    color: red;
+}
+.kurang{
+    margin: 5px;
+    
+}
+.skillbox{
+    position: relative;
+    top: 0;
+}
+.kurang:hover{
+    cursor: pointer;
+}
+.tambah{
+    margin: 5px;
+}
+.tambah:hover{
+    cursor: pointer;
+}
+.conskil{
+    display: flex;
+    justify-content: space-between;
+}
+.kurang1:hover{
+    cursor: pointer;
+}
+.tambah1:hover{
+    cursor: pointer;
+}
+.tambah1{
+margin: 5px;
+}
+.kurang1{
+    margin: 5px;
+}
+.kurang2:hover{
+    cursor: pointer;
+}
+.tambah2:hover{
+    cursor: pointer;
+}
+.tambah2{
+margin: 5px;
+}
+.kurang2{
+    margin: 5px;
+}
